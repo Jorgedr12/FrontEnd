@@ -1,0 +1,115 @@
+
+body {
+    background: #f2e9e4;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+nav {
+    background: #22223b;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav h3 {
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.Inicio, .AboutMe, .Proyectos, .Contact {
+    text-align: center;
+    background: #fff;
+    margin: 24px auto;
+    border-radius: 8px;
+    max-width: 700px;
+    padding: 18px 12px;
+}
+
+#image {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#proyectos img {
+    width: 10%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1rem;
+    color: #444;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 24px;
+    border-radius: 8px 8px 0 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+}
