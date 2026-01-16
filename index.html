@@ -9,26 +9,26 @@
 </head>
 <body>
     <nav>
-        <h3>Mi Portafolio</h1>
-        <a href="#Inicio">Inicio</a>
+        <h3>Mi Portafolio</h3>
+        <a href="#inicio">Inicio</a>
         <a href="#about">About</a>
         <a href="#contact">Contacto</a>
         <a href="#proyectos">Proyectos</a>
     </nav>
 
     
-    <div class="Inicio">
+    <div class="Inicio" id="inicio">
         <h3>Hola</h3>
         <h2>Soy Jorge Luis</h2>
         <h1>Desarrollador Web</h1>
 
         <p>Soy un desarrollador web</p>
 
-        <button>Descargar CV</button>
+        <a href="assets/CV_Duarte_Ruiz_Jorge_Luis.pdf" download class="cv-btn"><button type="button">Descargar CV</button></a>
 
     </div>
 
-    <div class="AboutMe">
+    <div class="AboutMe" id="about">
         <div id="image">
             <img src="img/Jorge.jpg" alt="foto">
         </div>
@@ -38,24 +38,32 @@
         </div>
     </div>
 
-    <div class="Proyectos">
+    <div class="Proyectos" id="proyectos">
         <h2>Proyectos</h2>
         <div class="project">
-            <img src="" alt="Proyecto 1" href="">
-            <h3>Proyecto 1</h3>
-            <p>Proyecto hecho en la clase de pds</p>
+            <img src="img/Proyecto1.png" alt="Proyecto 1">
+            <div class="project-info">
+                <h3>Proyecto 1</h3>
+                <p>Proyecto hecho en la clase de FrontEnd</p>
+            </div>
         </div>
         <div class="project">
-            <h3>Proyecto 2</h3>
-            <p>Este seria mi proyecto 2</p>
+            <img src="img/Proyecto1.png" alt="Proyecto 2">
+            <div class="project-info">
+                <h3>Proyecto 2</h3>
+                <p>Proyecto hecho en la clase de FrontEnd</p>
+            </div>
         </div>
         <div class="project">
-            <h3>Proyecto 3</h3>
-            <p>Este seria mi proyecto 3</p>
+            <img src="img/Proyecto1.png" alt="Proyecto 3">
+            <div class="project-info">
+                <h3>Proyecto 3</h3>
+                <p>Proyecto hecho en la clase de FrontEnd</p>
+            </div>
         </div>
     </div>
-
-    <div class="Contact">
+    
+    <div class="Contact" id="contact">
         <h2>Contacto</h2>
         <form>
             <label for="name">Nombre:</label>
@@ -77,8 +85,8 @@
     <div class="footer">
         <p>2024 Jorge Luis. Todos los derechos reservados.</p>
         <div class="social-links">
-            <a href="https://github.com">GitHub</a>
-            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="https://github.com/Jorgedr12">GitHub</a>
+            <a href="https://www.linkedin.com/in/jorgeluisdr" target="_blank" rel="noopener">LinkedIn</a>
         </div>
     </div>
 </footer>
