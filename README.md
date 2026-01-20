@@ -4,7 +4,7 @@ Este repositorio contiene mi portafolio web personal, realizado como práctica d
 
 ## Descripción
 
-Es una página web estática. Cuenta con secciones de inicio, sobre mí, proyectos y contacto, accesibles desde un menú de navegación.
+Es una página web estática . Cuenta con secciones de inicio, sobre mí, proyectos y contacto, accesibles desde un menú de navegación.
 
 ## Tecnologías utilizadas
 

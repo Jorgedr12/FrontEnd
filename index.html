@@ -8,27 +8,29 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <nav>
-        <h3>Mi Portafolio</h3>
-        <a href="#inicio">Inicio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contacto</a>
-        <a href="#proyectos">Proyectos</a>
-    </nav>
+    <header>
+        <nav>
+            <h3>Mi Portafolio</h3>
+            <a href="#inicio">Inicio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contacto</a>
+            <a href="#proyectos">Proyectos</a>
+        </nav>
+    </header>
 
-    
-    <div class="Inicio" id="inicio">
-        <h3>Hola</h3>
+    <main>
+        
+    <section class="Inicio" id="inicio">
+        <h1>Hola</h1>
         <h2>Soy Jorge Luis</h2>
-        <h1>Desarrollador Web</h1>
+        <h3>Desarrollador Web</h3>
 
         <p>Soy un desarrollador web</p>
+        <a href="assets/CV_Duarte_Ruiz_Jorge_Luis.pdf" download class="cv-btn">Descargar CV</a>
 
-        <a href="assets/CV_Duarte_Ruiz_Jorge_Luis.pdf" download class="cv-btn"><button type="button">Descargar CV</button></a>
+    </section>
 
-    </div>
-
-    <div class="AboutMe" id="about">
+    <section class="AboutMe" id="about">
         <div id="image">
             <img src="img/Jorge.jpg" alt="foto">
         </div>
@@ -36,34 +38,34 @@
             <h2>Sobre Mi</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-    </div>
+    </section>
 
-    <div class="Proyectos" id="proyectos">
+    <section class="Proyectos" id="proyectos">
         <h2>Proyectos</h2>
-        <div class="project">
+        <article class="project">
             <img src="img/Proyecto1.png" alt="Proyecto 1">
             <div class="project-info">
                 <h3>Proyecto 1</h3>
                 <p>Proyecto hecho en la clase de FrontEnd</p>
             </div>
-        </div>
-        <div class="project">
+        </article>
+        <article class="project">
             <img src="img/Proyecto1.png" alt="Proyecto 2">
             <div class="project-info">
                 <h3>Proyecto 2</h3>
                 <p>Proyecto hecho en la clase de FrontEnd</p>
             </div>
-        </div>
-        <div class="project">
+        </article>
+        <article class="project">
             <img src="img/Proyecto1.png" alt="Proyecto 3">
             <div class="project-info">
                 <h3>Proyecto 3</h3>
                 <p>Proyecto hecho en la clase de FrontEnd</p>
             </div>
-        </div>
-    </div>
+        </article>
+    </section>
     
-    <div class="Contact" id="contact">
+    <section class="Contact" id="contact">
         <h2>Contacto</h2>
         <form>
             <label for="name">Nombre:</label>
@@ -77,16 +79,17 @@
 
             <button type="submit">Enviar</button>
         </form>
-
-    </div>
+    </section>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <p>2024 Jorge Luis. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/Jorgedr12">GitHub</a>
+                <a href="https://www.linkedin.com/in/jorgeluisdr" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
-<footer>
-    <div class="footer">
-        <p>2024 Jorge Luis. Todos los derechos reservados.</p>
-        <div class="social-links">
-            <a href="https://github.com/Jorgedr12">GitHub</a>
-            <a href="https://www.linkedin.com/in/jorgeluisdr" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-    </div>
-</footer>
