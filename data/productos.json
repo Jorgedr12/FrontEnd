@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "nombre": "Gorra",
+        "descripcion": "Una gorra muy buena de alta calidad",
+        "precio": 1500,
+        "imagen": "img/Gorra.png"
+        
+    },
+    {
+        "id": 2,
+        "nombre": "Playera",
+        "descripcion": "La mejor playera que podrás tener",
+        "precio": 800,
+        "imagen": "img/Playera.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Taza",
+        "descripcion": "La mejor taza para tu bebida favorita",
+        "precio": 500,
+        "imagen": "img/Taza.png"
+    }
+]

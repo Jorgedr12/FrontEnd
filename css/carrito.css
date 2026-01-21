@@ -1,0 +1,168 @@
+main{
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+body {
+    background: #161618;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+nav {
+    background: #1c1c1c;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-figure {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+}
+
+.nav-figure img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav h3 {
+    color: #fff;
+}
+
+.nav-figure p {
+    color: #ccc;
+    margin: 0;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+button {
+    background: #3b3b3b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4e4e4e;
+}
+
+footer {
+    background: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 24px;
+    border-radius: 8px 8px 0 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: white;
+}
+
+.producto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    background: #1e1e20;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 12px;
+    text-align: left;
+}
+
+.producto img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Carrito {
+    flex: 1;
+    background: #1e1e20;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.car-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    background: rgb(39, 39, 41);
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 12px;
+    text-align: left;
+}
+
+.Carrito img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.car-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Productos {
+    flex: 2;
+}

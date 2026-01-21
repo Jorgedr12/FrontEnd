@@ -78,37 +78,37 @@ nav a:hover {
 
 
 .Proyectos {
-        max-width: 700px;
-        margin: 24px auto;
-        background: #1e1e20;
-        border-radius: 8px;
-        padding: 18px 12px;
+    max-width: 700px;
+    margin: 24px auto;
+    background: #1e1e20;
+    border-radius: 8px;
+    padding: 18px 12px;
 }
 
 .project {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 32px;
-        background: #1e1e20;
-        border-radius: 8px;
-        margin-bottom: 18px;
-        padding: 12px;
-        text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    background: #1e1e20;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 12px;
+    text-align: left;
 
 }
 
 .project img {
-        width: 120px;
-        height: 90px;
-        object-fit: cover;
-        border-radius: 8px;
-        margin-bottom: 0;
-        flex: 0 0 auto;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0;
+    flex: 0 0 auto;
 }
 
 .project-info {
-        flex: 1 1 0;
+    flex: 1 1 0;
 }
 
 .Contact {

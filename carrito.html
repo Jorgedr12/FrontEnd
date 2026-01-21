@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/carrito.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <figure class="nav-figure">
+                <img src="img/Jorge.jpg" width="42px" height="42px" alt="Logo">
+                <figcaption>
+                    <p>Jorge Luis</p>
+                    <p>Software Developer</p>
+                </figcaption>
+            </figure>
+            <ul class="nav-ul">
+                <li><a href="index.html">Regresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="Productos" id="Productos">
+            <h2>Productos</h2>
+            <article class="producto" id ="producto">
+                <img src="img/Gorra.png" alt="Gorra">
+                <div class="producto-info">
+                    <h3>Gorra</h3>
+                    <p>Una gorra muy buena de alta calidad</p>
+                    <p>Precio: $1500</p>
+                    <button onclick="agregarAlCarrito('Gorra', 1500,'img/Gorra.png')">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="producto">
+                <img src="img/Playera.png" alt="Playera">
+                <div class="producto-info">
+                    <h3>Playera</h3>
+                    <p>La mejor playera que podras tener</p>
+                    <p>Precio: $800</p>
+                    <button onclick="agregarAlCarrito('Playera', 800,'img/Playera.png')">Agregar al carrito</button>
+                </div>
+            </article>
+            <article class="producto">
+                <img src="img/Taza.png" alt="Taza">
+                <div class="producto-info">
+                    <h3>Taza</h3>
+                    <p>La mejor taza para tu bebida favorita</p>
+                    <p>Precio: $500</p>
+                    <button onclick="agregarAlCarrito('Taza', 500,'img/Taza.png')">Agregar al carrito</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="Carrito" id="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="carrito-items"></div>
+            <h3 id="total">Total: $0</h3>
+            <button id="vaciar-carrito" onclick="vaciarCarrito()">Vaciar Carrito</button>
+            <button id="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <p>2024 Jorge Luis. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/Jorgedr12">GitHub</a>
+                <a href="https://www.linkedin.com/in/jorgeluisdr" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
