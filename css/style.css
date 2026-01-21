@@ -1,23 +1,46 @@
 
 body {
-    background: #f2e9e4;
+    background: #161618;
     margin: 0;
     padding: 0;
-    color: #222;
+    color: #ccc;
 }
 
 nav {
-    background: #22223b;
-    color: #fff;
-    padding: 12px 0;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    background: #1c1c1c;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-figure {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+}
+
+.nav-figure img {
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 nav h3 {
     color: #fff;
+}
+
+.nav-figure p {
+    color: #ccc;
+    margin: 0;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -32,7 +55,7 @@ nav a:hover {
 
 .Inicio {
     text-align: center;
-    background: #fff;
+    background: #1e1e20;
     margin: 24px auto;
     border-radius: 8px;
     max-width: 700px;
@@ -44,7 +67,7 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: #1e1e20;
     margin: 24px auto;
     border-radius: 8px;
     max-width: 700px;
@@ -57,7 +80,7 @@ nav a:hover {
 .Proyectos {
         max-width: 700px;
         margin: 24px auto;
-        background: #fff;
+        background: #1e1e20;
         border-radius: 8px;
         padding: 18px 12px;
 }
@@ -67,7 +90,7 @@ nav a:hover {
         flex-direction: row;
         align-items: center;
         gap: 32px;
-        background: #f2e9e4;
+        background: #1e1e20;
         border-radius: 8px;
         margin-bottom: 18px;
         padding: 12px;
@@ -89,7 +112,7 @@ nav a:hover {
 }
 
 .Contact {
-    background: #fff;
+    background: #1e1e20;
     margin: 24px auto;
     border-radius: 8px;
     max-width: 700px;
@@ -114,7 +137,7 @@ nav a:hover {
     text-align: left;
     font-weight: 500;
     margin-bottom: 2px;
-    color: #333;
+    color: #ccc;
 }
 
 .Contact input,
@@ -123,7 +146,7 @@ nav a:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    background: #f2e9e4;
+    background: #1e1e20;
     margin-bottom: 0;
     resize: vertical;
 }
@@ -143,13 +166,13 @@ nav a:hover {
 
 
 h1, h2, h3 {
-    color: #333;
+    color: #ccc;
     margin-bottom: 0.5em;
 }
 
 p {
     font-size: 1rem;
-    color: #444;
+    color: #ccc;
 }
 
 button {
@@ -187,12 +210,12 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-    background: #f2e9e4;
+    background: #1e1e20;
     margin-bottom: 10px;
 }
 
 footer {
-    background: #333;
+    background: #1c1c1c;
     color: #fff;
     text-align: center;
     padding: 12px 0;
